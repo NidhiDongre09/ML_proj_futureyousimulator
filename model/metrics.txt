@@ -1,0 +1,3 @@
+productivity_mae: 5.5652
+productivity_r2: 0.9326
+burnout_accuracy: 0.9600
