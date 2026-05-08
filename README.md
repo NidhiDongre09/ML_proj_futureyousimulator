@@ -4,6 +4,8 @@ Future You Simulator is an interactive machine learning project that predicts a 
 
 The goal of this project is not only to make a prediction, but to create a simple "future self" simulation experience. Users can change one habit, such as increasing sleep or reducing screen time, and immediately see how the projected outcome improves.
 
+**Live Link: https://mlprojfutureyousimulator.streamlit.app/**
+
 Project Overview
 The system accepts daily habit values as input and produces:
 
@@ -29,27 +31,4 @@ Two machine learning models are trained:
 - RandomForestClassifier predicts the burnout risk category.
 The trained models are saved as .pkl files and loaded by the Streamlit app during prediction.
 
-Setup
-```powershell
-cd future-you-simulator
-pip install -r requirements.txt
-python model/generate_data.py
-python model/train.py
-streamlit run app/app.py
-```
 
-Inputs
-
-- Sleep hours
-- Study hours
-- Screen time
-- Exercise hours
-- Social time
-
-Outputs
-
-- Productivity score from 0 to 100
-- Burnout risk: LOW, MEDIUM, or HIGH
-- Six-month projection graph
-- Improved-habits comparison
-- Simple advice generator
