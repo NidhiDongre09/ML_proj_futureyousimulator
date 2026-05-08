@@ -18,7 +18,7 @@ On this machine, the app can also be started with:
 .\run_app.ps1
 ```
 
-Then open http://localhost:8501.
+Then open http://localhost:8502.
 
 ## Inputs
 
